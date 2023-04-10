@@ -43,7 +43,7 @@
 
 
 
-<a href="{{ site.baseurl }}/test">link to test</a>
+<a href="/test">link to test</a>
 
 <script>
     console.log("{{ site.baseurl }}/test");
