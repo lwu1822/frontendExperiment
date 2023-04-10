@@ -16,12 +16,9 @@
   }
 
 
+$linkFont: Arial, Helvetica, sans-serif;
+
 a{
 color: #D1A3CE;
-font-family: "Dancing Script", sans-serif;
-  }
-
-  @font-face {
-    font-family: "Dancing Script";
-    src: url({{ site.baseurl }}/DancingScript-Regular.ttf);
+font-family: $linkFont;
   }
