@@ -40,3 +40,9 @@
 | --- | --- | 7pm | Family Night | Dining Room |John and Mel |
 | 7/1 | Saturday | 8am | Breakfast | Dining Room | Lisa |
 | --- | --- | 10am | Check Out | Travel Home | Your it |
+
+
+
+<script>
+    console.log("{{ site.baseurl }}/test");
+</script>

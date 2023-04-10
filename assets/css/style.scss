@@ -23,5 +23,5 @@ font-family: "Dancing Script", sans-serif;
 
   @font-face {
     font-family: "Dancing Script";
-    src: url(DancingScript-Regular.ttf);
+    src: url({{ site.baseurl }}/DancingScript-Regular.ttf);
   }
