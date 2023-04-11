@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import 'test';
 
 /* "row style" is flexible size and aligns pictures in center */
 .row {
@@ -19,12 +20,7 @@
 $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 
-div {
-  h1 {
-    color: red;
-  }
 
-  p {
-    color: #ed7edc;
-  }
+.c {
+  color: #ed7edc;
 }
