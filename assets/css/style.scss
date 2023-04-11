@@ -22,20 +22,26 @@ $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 @import 'test';
 
-@mixin testMix($colorVar: red) {
-  color: $colorVar; 
-  font-family: $linkFont;
+@mixin testMix {
+  color: red; 
 }
 
 .a {
   @include testMix;
-  background-color: #ffffff;
 }
 
 .b {
-  @include testMix($colorVar: blue);
+  @include testMix;
 }
 
-p, h1 {
-  color: #2bd4d4;
+%testExtend {
+  color: purple;
+}
+
+.c {
+  @extend %testExtend;
+}
+
+.d {
+  @extend %testExtend;
 }
