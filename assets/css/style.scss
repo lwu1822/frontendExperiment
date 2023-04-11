@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@import 'test';
 
 /* "row style" is flexible size and aligns pictures in center */
 .row {
@@ -21,6 +20,17 @@ $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 
 
-.c {
-  color: #ed7edc;
+@import 'test';
+
+@mixin testMix($colorVar: red) {
+  color: $colorVar; 
+  font-family: $linkFont;
+}
+
+.a {
+  @include testMix;
+}
+
+.b {
+  @include testMix($colorVar: #ffffff);
 }
