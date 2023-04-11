@@ -35,3 +35,7 @@ $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 .b {
   @include testMix($colorVar: blue);
 }
+
+p, h1 {
+  color: #2bd4d4;
+}
