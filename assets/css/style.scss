@@ -18,7 +18,13 @@
 
 $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
-.b {
-color: red;
-  //font-family: $linkFont;
+
+div {
+  h1 {
+    color: red;
   }
+
+  p {
+    color: #ed7edc;
+  }
+}
