@@ -29,8 +29,9 @@ $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 .a {
   @include testMix;
+  background-color: #ffffff;
 }
 
 .b {
-  @include testMix($colorVar: #ffffff);
+  @include testMix($colorVar: blue);
 }
