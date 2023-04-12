@@ -18,7 +18,13 @@
 
 $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
+.a, .b {
+  .c, .d {
+    color: red; 
+  }
+}
 
+/*
 %buttonLayout {
   width: 15em;
   height: 20em;
@@ -49,3 +55,4 @@ $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 .jsButton {
   @extend %buttonAnimation;
 }
+*/
