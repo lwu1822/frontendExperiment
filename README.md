@@ -1,4 +1,7 @@
-## The Reunion Project
+# Refer to commit history to see experiments with Sass. Old code will usually be deleted once I move on to a different topic so that things don't get too cluttered.
+
+
+## Setup info
 
 Usage
 
