@@ -1,2 +1,3 @@
-<button>Test button</button>
+<button class="sassButton">Sass</button>
+<button class="jsButton">JavaScript</button>
 

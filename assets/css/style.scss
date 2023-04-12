@@ -19,17 +19,30 @@
 $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 
-button {
-  //background-color: #5ddfe8;
-  font-family: $linkFont;
-  //border: 1em solid #8ae0e6;
-  background: radial-gradient( #5ddfe8, #8ae0e6);
+%buttonLayout {
   width: 15em;
   height: 20em;
   transition: transform 2s;
 }
 
-button:hover {
+%buttonAnimation:hover {
   transform: scale(1.5);
 }
 
+.sassButton {
+  @extend %buttonLayout;
+  background: radial-gradient( #3a9fa7, #8ae0e6);
+}
+
+.sassButton {
+  @extend %buttonAnimation;
+}
+
+.jsButton {
+  @extend %buttonLayout;
+  background: radial-gradient( #643aa7, #d78ae6);
+}
+
+.jsButton {
+  @extend %buttonAnimation;
+}
