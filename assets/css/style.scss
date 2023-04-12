@@ -19,29 +19,6 @@
 $linkFont: "Comic Sans MS", Helvetica, sans-serif;
 
 
-
-@import 'test';
-
-@mixin testMix {
-  color: red; 
-}
-
 .a {
-  @include testMix;
-}
-
-.b {
-  @include testMix;
-}
-
-%testExtend {
-  color: purple;
-}
-
-.c {
-  @extend %testExtend;
-}
-
-.d {
-  @extend %testExtend;
+  color: rgb(0, 0, 100+50);
 }
