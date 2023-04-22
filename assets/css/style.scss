@@ -35,6 +35,7 @@ body {
 
 .a {
   @include decoration(red, blue);
+  margin-right: 50px;
 }
 
 .b {
