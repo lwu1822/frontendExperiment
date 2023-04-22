@@ -36,7 +36,7 @@ body {
 }
 
 .buttonPos {
-  margin-right: 33%;
+  flex-grow: 1;
 }
 
 .a {
@@ -47,6 +47,8 @@ body {
 .b {
   @include decoration(blue, red);
 }
+
+
 
 /*
 %buttonLayout {
