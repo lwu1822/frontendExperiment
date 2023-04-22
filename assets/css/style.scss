@@ -23,11 +23,22 @@ body {
   //height: 100%;
 }
 
-.a {
-  color: red; 
-  width: 50%;
-  background-color: blue;
+@mixin decoration($fontColor, $backgroundColor) {
+  color: $fontColor;
+  background-color: $backgroundColor;
+  flex: 1;
+}
 
+.flex {
+  display: flex;
+}
+
+.a {
+  @include decoration(red, blue);
+}
+
+.b {
+  @include decoration(blue, red);
 }
 
 /*
