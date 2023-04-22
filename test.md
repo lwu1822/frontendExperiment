@@ -2,18 +2,14 @@
 <button class="sassButton" onclick="sass()">Sass</button>
 <button class="jsButton">JavaScript</button>
 -->
+
 <div class="flex">
-    <div class="a">
-        <p>hi</p>
-    </div>
-    <div class="b">
-        <p>hi</p>
-    </div>
+    <div class="buttonPos"><button>Test</button></div>
+    <div class="buttonPos"><button>Test</button></div>
+    <div class="buttonPos"><button>Test</button></div>
 </div>
 
-<button>Test</button>
-<button>Test</button>
-<button>Test</button>
+
 
 
 <script>
