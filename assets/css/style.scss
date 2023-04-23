@@ -48,6 +48,16 @@ body {
   @include decoration(blue, red);
 }
 
+pre {
+   background-color: #e0d5d5 !important; 
+   color: black !important;
+   white-space: pre-line !important;
+}
+
+pre > .whiteSpaceFormat {
+   white-space: pre !important;
+   line-height: 0.5em;
+}
 
 
 /*
